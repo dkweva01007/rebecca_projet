@@ -1,0 +1,3 @@
+dk_web_homepage:
+    path:     /
+    defaults: { _controller: DKWebBundle:Index:index }

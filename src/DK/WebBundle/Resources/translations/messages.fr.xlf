@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>Rebecca PETIT's PORTOFOLIO: Home</source>
+                <target>Porte Folio de Rebecca PETIT: Acceuil</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Rebecca PETIT's PORTOFOLIO</source>
+                <target>Porte Folio de Rebecca PETIT</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>DIGITAL et SOCIAL MEDIA EXPERT</source>
+                <target>EXPERTE DIGITAL ET MEDIA SOCIAL</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

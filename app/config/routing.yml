@@ -1,0 +1,3 @@
+dk_web:
+    resource: "@DKWebBundle/Resources/config/routing.yml"
+    prefix:   /
