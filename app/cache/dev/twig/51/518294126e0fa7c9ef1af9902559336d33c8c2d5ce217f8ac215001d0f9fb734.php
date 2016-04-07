@@ -22,32 +22,32 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_2a0873395f69e0bf655da96765493cde1f4ac94e167e1e38258ee50af3c56082 = $this->env->getExtension("native_profiler");
-        $__internal_2a0873395f69e0bf655da96765493cde1f4ac94e167e1e38258ee50af3c56082->enter($__internal_2a0873395f69e0bf655da96765493cde1f4ac94e167e1e38258ee50af3c56082_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "DKWebBundle:Default:index.html.twig"));
+        $__internal_964f84ebeb0b8bbefd5bd553628626975c83399dd2b55ba700214b1f518c3358 = $this->env->getExtension("native_profiler");
+        $__internal_964f84ebeb0b8bbefd5bd553628626975c83399dd2b55ba700214b1f518c3358->enter($__internal_964f84ebeb0b8bbefd5bd553628626975c83399dd2b55ba700214b1f518c3358_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "DKWebBundle:Default:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_2a0873395f69e0bf655da96765493cde1f4ac94e167e1e38258ee50af3c56082->leave($__internal_2a0873395f69e0bf655da96765493cde1f4ac94e167e1e38258ee50af3c56082_prof);
+        $__internal_964f84ebeb0b8bbefd5bd553628626975c83399dd2b55ba700214b1f518c3358->leave($__internal_964f84ebeb0b8bbefd5bd553628626975c83399dd2b55ba700214b1f518c3358_prof);
 
     }
 
     // line 3
     public function block_title($context, array $blocks = array())
     {
-        $__internal_e7e119c4f1301ecd64614d9b97314e758d6f9ef808d0a3f9bf99087d49cbfd47 = $this->env->getExtension("native_profiler");
-        $__internal_e7e119c4f1301ecd64614d9b97314e758d6f9ef808d0a3f9bf99087d49cbfd47->enter($__internal_e7e119c4f1301ecd64614d9b97314e758d6f9ef808d0a3f9bf99087d49cbfd47_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_3b9c4059c1a26456005daf6895e9e211893833c8cbca229ac99cef034d34f1ba = $this->env->getExtension("native_profiler");
+        $__internal_3b9c4059c1a26456005daf6895e9e211893833c8cbca229ac99cef034d34f1ba->enter($__internal_3b9c4059c1a26456005daf6895e9e211893833c8cbca229ac99cef034d34f1ba_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        echo $this->env->getExtension('translator')->getTranslator()->trans("Rebecca PETIT: Home", array(), "messages");
+        echo $this->env->getExtension('translator')->getTranslator()->trans("Rebecca PETIT PORTFOLIO : Home", array(), "messages");
         
-        $__internal_e7e119c4f1301ecd64614d9b97314e758d6f9ef808d0a3f9bf99087d49cbfd47->leave($__internal_e7e119c4f1301ecd64614d9b97314e758d6f9ef808d0a3f9bf99087d49cbfd47_prof);
+        $__internal_3b9c4059c1a26456005daf6895e9e211893833c8cbca229ac99cef034d34f1ba->leave($__internal_3b9c4059c1a26456005daf6895e9e211893833c8cbca229ac99cef034d34f1ba_prof);
 
     }
 
     // line 5
     public function block_body($context, array $blocks = array())
     {
-        $__internal_a3abb42f4d3e84beefe6804f41f3e945efc155efd8e1ef711b718532f5f0d9af = $this->env->getExtension("native_profiler");
-        $__internal_a3abb42f4d3e84beefe6804f41f3e945efc155efd8e1ef711b718532f5f0d9af->enter($__internal_a3abb42f4d3e84beefe6804f41f3e945efc155efd8e1ef711b718532f5f0d9af_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_4b02423b5b106ab4c05b7bfe31ad4bfa4fdabe897a23c433b691a18b78cf4401 = $this->env->getExtension("native_profiler");
+        $__internal_4b02423b5b106ab4c05b7bfe31ad4bfa4fdabe897a23c433b691a18b78cf4401->enter($__internal_4b02423b5b106ab4c05b7bfe31ad4bfa4fdabe897a23c433b691a18b78cf4401_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
         echo "    <div id=\"page\" class=\"hashtag-whyistayed\">
@@ -57,14 +57,14 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
         <section class=\"hero\">
             <div class=\"inner-wrapper\">
                 <div class=\"content-wrap\" style=\"width: auto\">
-                    <h1>
+                    <h1 >
                         ";
         // line 14
-        echo $this->env->getExtension('translator')->getTranslator()->trans("DIGITAL <span style=\"font-family:Calibri;font-weight: bold;font-size: 49px\">&</span>
+        echo $this->env->getExtension('translator')->getTranslator()->trans("Consultant <span style=\"font-family:Agency FB;font-weight: bold;font-size: 64px\">&</span>
                             <br/>
-                            SOCIAL MEDIA
+                            expert
                             <br/>
-                            EXPERT", array(), "messages");
+                            social media", array(), "messages");
         // line 19
         echo "                        </h1>
                     </div>
@@ -98,11 +98,18 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
                 </div>
                 <span class=\"line btm\"><span></span></span>
             </section>
-            <section class=\"red-wrap\">
+            <section class=\"red-wrap\" style=\"padding-top: 100px; padding-bottom: 100px;\">
                 <div class=\"inner-wrapper\">
-                    <div class=\"quote-wrap\">
+                    <div class=\"quote-wrap my_nav2\">
                         <p>
-                            test d'accroche
+                            <span style=\"font-weight: bold;font-size: 35px ; font-family: ERASER;\">PurePLAYERS, 
+                                <br><br>Entreprises PHYSIQUES;</span>
+                            <br><br> Améliorer votre RENTABILITE en capitalisant sur les LEVIERS DIGITAUX, 
+                            <br><br> Générer de nouveaux TOUCHPOINTS commerciaux, 
+                            <br><br> Transformer plus aisément vos PROSPECTS,
+                            <br><br> <span style=\"font-weight: bold;font-size: 25px\"> Maximiser votre ROI & Croîte votre CHIFFRE D'AFFAIRES</span>
+                            <br><br><br> <span style=\"font-weight: bold;\">Contactez moi <a href=\"#contact\">Rebecca P.</a></span>
+                            <br><br> Découvrez mon <span style=\"font-weight: bold;\">PARCOURS</SPAN>, mes <span style=\"font-weight: bold;\">REFERENCES</SPAN> & mon <span style=\"font-weight: bold;\">PORTFOLIO</SPAN> 
                         </p>
                     </div>
                 </div>
@@ -146,8 +153,8 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
                     </div>
                     <br/><br/><br/>
                     <div class=\"quote-wrap\">
-                        <h3>Digital & Social Media Consultant </h3>
-                        <blockquote style=\"font-size: 25px\">
+                        <h3 style=\"color: #FFF;font-family: Eraser;font-size: 27px\">Digital <span style=\"font-family: Agency FB;font-weight: bold;\">&</span> Social Media Consultant </h3>
+                        <blockquote style=\"font-size: 25px;font-family: Agency FB;\">
                             Conseil, Stratégie, Gestion de projets web et campagnes digitales, Community Management & Formation
                             <br/>IDZZ, Synomia, Odilynch, CarbonCoin, Virtual Sterling, LoJoL ...
                         </blockquote>
@@ -156,10 +163,11 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
                         </p>
                     </div>
                     <br/>
+                    <span class=\"line btm\"><span></span></span>
                     <br/>
                     <div class=\"quote-wrap\">
-                        <h3>Directrice de clientèle Digital & Social Media </h3>
-                        <blockquote style=\"font-size: 25px\">
+                        <h3 style=\"color: #FFF;font-family: Eraser;font-size: 27px\">Directrice de clientele Digital <span style=\"font-family: Agency FB;font-weight: bold;\">&</span> Social Media </h3>
+                        <blockquote style=\"font-size: 25px;font-family: Agency FB;\">
                             Conception & pilotage d'opérations full service digital, de la recommandation à la proposition financière et au suivi de l'execution : Media, Social Media, Création Digitale & Mobile. 
                             <br/> Management de 5 Community Managers & des équipes projet (Créatifs, Développeurs et Chefs de projet) & gestion financière / budgétaire.
                             <br/>Philips, J&J, Perfetti, Diageo, Carlsberg Group, Bel Group, Marie, SFR, Fram, INPES...
@@ -169,10 +177,11 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
                         </p>
                     </div>
                     <br/>
+                    <span class=\"line btm\"><span></span></span>
                     <br/>
                     <div class=\"quote-wrap\">
-                        <h3>Responsable de clientèle Social Media </h3>
-                        <blockquote style=\"font-size: 25px\">
+                        <h3 style=\"color: #FFF;font-family: Eraser;font-size: 27px\">Responsable de clientele Social Media </h3>
+                        <blockquote style=\"font-size: 25px;font-family: Agency FB;\">
                             Conseil & élaboration de stratgéies Social Media : animation des réseaux sociaux, stratégie d'engagement et de recrutement, campagnes d'influence auprès de la blogosphère, activation des forums et opérations spéciales, stratgéie de veille et de monitoring de l'e-reputation, SMO
                             <br/> Management de 5 Community Managers, Suvi de projet & gestion financière
                             <br/>Philips, Kellogg's, Danone, Reebok, J&J, Beiersdorf, Fast-Retailling, Vivarte, Mattel...
@@ -182,10 +191,11 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
                         </p>
                     </div>
                     <br/>
+                    <span class=\"line btm\"><span></span></span>
                     <br/>
                     <div class=\"quote-wrap\">
-                        <h3>Chef de projet Digital </h3>
-                        <blockquote style=\"font-size: 25px\">
+                        <h3 style=\"color: #FFF;font-family: Eraser;font-size: 27px\">Chef de projet Digital </h3>
+                        <blockquote style=\"font-size: 25px;font-family: Agency FB;\">
                             Recommandations stratégiques & opérationnelles, Brief & coordination des différents pôles d'expertise (Display, SEM, SEO, E-mailing, Affiliation, OPS, Mobile),
                             <br/>Suivi & optimisation des campagnes, Reportings,Suivi financier
                             <br/>Nissan, Hasbro, Barilla, Sony Pictures / SPHE, Bazarchic
@@ -195,10 +205,11 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
                         </p>
                     </div>
                     <br/>
+                    <span class=\"line btm\"><span></span></span>
                     <br/>
                     <div class=\"quote-wrap\">
-                        <h3>Chef de projet Digital </h3>
-                        <blockquote style=\"font-size: 25px\">
+                        <h3 style=\"color: #FFF;font-family: Eraser;font-size: 27px\">Chef de projet Marketing </h3>
+                        <blockquote style=\"font-size: 25px;font-family: Agency FB;\">
                             Création des supports de communication, Cahier des charges et gestion de projet pour la refonte des sites web du groupe,
                             <br/>Organisation d'évenements à destindation des collaborateurs et des salons professionnels, Développement d'outils de communication interne (Newsletter, Intranet...)
                         </blockquote>
@@ -223,7 +234,7 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
                                     <br/>
                                 </div>
                                 <div class=\"credit\" style=\"height: auto\">
-                                    <iframe style=\"height: 325px;position: relative\" src=\"https://player.vimeo.com/video/10183182?title=0&byline=0&portrait=0\" width=\"500\" height=\"375\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>                 
+                                    <iframe style=\"height: 325px;position: relative\" src=\"https://www.youtube.com/embed/ntB_KuTt52k?rel=0&amp;showinfo=0\" width=\"500\" height=\"375\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>                 
                                 </div>
                             </div>
                         </div>
@@ -238,7 +249,7 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
                                     <br/>
                                 </div>
                                 <div class=\"credit\" style=\"height: auto\">
-                                    <iframe style=\"height: 205px;position: relative\" width=\"578\" height=\"325\" src=\"//www.dailymotion.com/embed/video/xafets\" frameborder=\"0\" allowfullscreen></iframe>
+                                    <iframe style=\"height: 205px;position: relative\" width=\"578\" height=\"325\" src=\"https://www.youtube.com/embed/D1ro89TR8ts?rel=0&amp;showinfo=0\" frameborder=\"0\" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -351,31 +362,31 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
                         <br/><br/><br/>
                         <div class=\"text-wrap\">
                             <p><span style=\"font-weight: bold\">Master II Marketing, Communication & Stratégies Commerciales, majeure E-commerce</span>
-                                <br>INSEEC Paris &nbsp; / &nbsp; Septembre 2008 </br>
+                                <br>INSEEC Paris &nbsp; - &nbsp; Septembre 2008 </br>
                             </p>
 
                             <p><span style=\"font-weight: bold\">Master I Management & Gestion d'entreprise, majeure Marketing / Communication </span>
-                                <br>Céfire-Esarc &nbsp; / &nbsp; INSEEC Paris &nbsp; / &nbsp; Septembre. 2007 </br>
+                                <br>Céfire-Esarc &nbsp; / &nbsp; INSEEC Paris &nbsp; - &nbsp; Septembre. 2007 </br>
                             </p>
 
                             <p><span style=\"font-weight: bold\">DUT Techniques de Commercialisation, majeure Marketing/Communication</span>  
-                                <br>IUT de Rouen &nbsp; / &nbsp;Juin 2004 </br>
+                                <br>IUT de Rouen &nbsp; - &nbsp;Juin 2004 </br>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class=\"red-bg-color\"></div>
             </section>
-            <section id=\"tools\" class=\"red-wrap\">
+            <section id=\"tools\" class=\"red-wrap\" style=\"padding-top: 50px; padding-bottom: 50px;\">
                 <span class=\"line top\"><span></span></span>
                 <div class=\"inner-wrapper\">
                     <div class=\"quote-wrap\">
                         <div class=\"text-wrap\">
                             <blockquote>
-                                <h6 style=\"font-family: Eraser;text-align: center;color: #ff3300\">OUTILS</h6>
+                                <h6 style=\"font-family: Eraser;text-align: center;color: #FFF\">OUTILS</h6>
                             </blockquote>
                         </div>
-                        <br/><br/><br/>
+                        <br/><br/><br/> 
                         <p>Maitrise du pack Office, Photoshop CS, Illustror CS</p>
                         <p>Connaissance HTML4.1 & PHP5 </p>
                         <p>Outils de PUBLICATION ; CMS Wordpress, Hootsuite, Buffer</p>
@@ -398,7 +409,11 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
                 </div>
                 <div class=\"image-wrap right-align\">
                     <div class=\"caption\">
-                        <h3>Janay, who doesn’t have a Twitter account, posted the following message on Instagram:</h3>
+                        <h3 style=\"font-family: Agency FB;color: #FFF\"> Mail : <a href=\"mailto:rebecca.petit@gmail.com\" style=\"font-family: bebas_neuebold,Helvetica,sans-serif;\">rebecca.petit@gmail.com</a>
+                            <br> Dial : <a href=\"tel:+33781419834\" style=\"font-family: bebas_neuebold,Helvetica,sans-serif;\">07 81 41 98 34</a>
+                            <br> LinkedIn <a href=\"https://fr.linkedin.com/in/rebeccapetit\" target=\"_blank\" style=\"font-family: bebas_neuebold,Helvetica,sans-serif;\">@rebecca.petit</a>
+                            <br> Twitter <a href=\"https://twitter.com/rebkTM\" target=\"_blank\" style=\"font-family: bebas_neuebold,Helvetica,sans-serif;\">@RebkTMt</a>
+                        </h3>
                     </div>
                 </div>
             </section>
@@ -410,7 +425,7 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
         </div>
         ";
         
-        $__internal_a3abb42f4d3e84beefe6804f41f3e945efc155efd8e1ef711b718532f5f0d9af->leave($__internal_a3abb42f4d3e84beefe6804f41f3e945efc155efd8e1ef711b718532f5f0d9af_prof);
+        $__internal_4b02423b5b106ab4c05b7bfe31ad4bfa4fdabe897a23c433b691a18b78cf4401->leave($__internal_4b02423b5b106ab4c05b7bfe31ad4bfa4fdabe897a23c433b691a18b78cf4401_prof);
 
     }
 
@@ -431,7 +446,7 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 }
 /* {% extends '::base.html.twig' %}*/
 /* */
-/* {% block title %}{% trans %}Rebecca PETIT: Home{% endtrans %}{% endblock %}*/
+/* {% block title %}{% trans %}Rebecca PETIT PORTFOLIO : Home{% endtrans %}{% endblock %}*/
 /* */
 /* {% block body %}*/
 /*     <div id="page" class="hashtag-whyistayed">*/
@@ -441,12 +456,12 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 /*         <section class="hero">*/
 /*             <div class="inner-wrapper">*/
 /*                 <div class="content-wrap" style="width: auto">*/
-/*                     <h1>*/
-/*                         {% trans %}DIGITAL <span style="font-family:Calibri;font-weight: bold;font-size: 49px">&</span>*/
+/*                     <h1 >*/
+/*                         {% trans %}Consultant <span style="font-family:Agency FB;font-weight: bold;font-size: 64px">&</span>*/
 /*                             <br/>*/
-/*                             SOCIAL MEDIA*/
+/*                             expert*/
 /*                             <br/>*/
-/*                             EXPERT{% endtrans %}*/
+/*                             social media{% endtrans %}*/
 /*                         </h1>*/
 /*                     </div>*/
 /*                     <span class="line right start"><span></span></span>*/
@@ -479,11 +494,18 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 /*                 </div>*/
 /*                 <span class="line btm"><span></span></span>*/
 /*             </section>*/
-/*             <section class="red-wrap">*/
+/*             <section class="red-wrap" style="padding-top: 100px; padding-bottom: 100px;">*/
 /*                 <div class="inner-wrapper">*/
-/*                     <div class="quote-wrap">*/
+/*                     <div class="quote-wrap my_nav2">*/
 /*                         <p>*/
-/*                             test d'accroche*/
+/*                             <span style="font-weight: bold;font-size: 35px ; font-family: ERASER;">PurePLAYERS, */
+/*                                 <br><br>Entreprises PHYSIQUES;</span>*/
+/*                             <br><br> Améliorer votre RENTABILITE en capitalisant sur les LEVIERS DIGITAUX, */
+/*                             <br><br> Générer de nouveaux TOUCHPOINTS commerciaux, */
+/*                             <br><br> Transformer plus aisément vos PROSPECTS,*/
+/*                             <br><br> <span style="font-weight: bold;font-size: 25px"> Maximiser votre ROI & Croîte votre CHIFFRE D'AFFAIRES</span>*/
+/*                             <br><br><br> <span style="font-weight: bold;">Contactez moi <a href="#contact">Rebecca P.</a></span>*/
+/*                             <br><br> Découvrez mon <span style="font-weight: bold;">PARCOURS</SPAN>, mes <span style="font-weight: bold;">REFERENCES</SPAN> & mon <span style="font-weight: bold;">PORTFOLIO</SPAN> */
 /*                         </p>*/
 /*                     </div>*/
 /*                 </div>*/
@@ -527,8 +549,8 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 /*                     </div>*/
 /*                     <br/><br/><br/>*/
 /*                     <div class="quote-wrap">*/
-/*                         <h3>Digital & Social Media Consultant </h3>*/
-/*                         <blockquote style="font-size: 25px">*/
+/*                         <h3 style="color: #FFF;font-family: Eraser;font-size: 27px">Digital <span style="font-family: Agency FB;font-weight: bold;">&</span> Social Media Consultant </h3>*/
+/*                         <blockquote style="font-size: 25px;font-family: Agency FB;">*/
 /*                             Conseil, Stratégie, Gestion de projets web et campagnes digitales, Community Management & Formation*/
 /*                             <br/>IDZZ, Synomia, Odilynch, CarbonCoin, Virtual Sterling, LoJoL ...*/
 /*                         </blockquote>*/
@@ -537,10 +559,11 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 /*                         </p>*/
 /*                     </div>*/
 /*                     <br/>*/
+/*                     <span class="line btm"><span></span></span>*/
 /*                     <br/>*/
 /*                     <div class="quote-wrap">*/
-/*                         <h3>Directrice de clientèle Digital & Social Media </h3>*/
-/*                         <blockquote style="font-size: 25px">*/
+/*                         <h3 style="color: #FFF;font-family: Eraser;font-size: 27px">Directrice de clientele Digital <span style="font-family: Agency FB;font-weight: bold;">&</span> Social Media </h3>*/
+/*                         <blockquote style="font-size: 25px;font-family: Agency FB;">*/
 /*                             Conception & pilotage d'opérations full service digital, de la recommandation à la proposition financière et au suivi de l'execution : Media, Social Media, Création Digitale & Mobile. */
 /*                             <br/> Management de 5 Community Managers & des équipes projet (Créatifs, Développeurs et Chefs de projet) & gestion financière / budgétaire.*/
 /*                             <br/>Philips, J&J, Perfetti, Diageo, Carlsberg Group, Bel Group, Marie, SFR, Fram, INPES...*/
@@ -550,10 +573,11 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 /*                         </p>*/
 /*                     </div>*/
 /*                     <br/>*/
+/*                     <span class="line btm"><span></span></span>*/
 /*                     <br/>*/
 /*                     <div class="quote-wrap">*/
-/*                         <h3>Responsable de clientèle Social Media </h3>*/
-/*                         <blockquote style="font-size: 25px">*/
+/*                         <h3 style="color: #FFF;font-family: Eraser;font-size: 27px">Responsable de clientele Social Media </h3>*/
+/*                         <blockquote style="font-size: 25px;font-family: Agency FB;">*/
 /*                             Conseil & élaboration de stratgéies Social Media : animation des réseaux sociaux, stratégie d'engagement et de recrutement, campagnes d'influence auprès de la blogosphère, activation des forums et opérations spéciales, stratgéie de veille et de monitoring de l'e-reputation, SMO*/
 /*                             <br/> Management de 5 Community Managers, Suvi de projet & gestion financière*/
 /*                             <br/>Philips, Kellogg's, Danone, Reebok, J&J, Beiersdorf, Fast-Retailling, Vivarte, Mattel...*/
@@ -563,10 +587,11 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 /*                         </p>*/
 /*                     </div>*/
 /*                     <br/>*/
+/*                     <span class="line btm"><span></span></span>*/
 /*                     <br/>*/
 /*                     <div class="quote-wrap">*/
-/*                         <h3>Chef de projet Digital </h3>*/
-/*                         <blockquote style="font-size: 25px">*/
+/*                         <h3 style="color: #FFF;font-family: Eraser;font-size: 27px">Chef de projet Digital </h3>*/
+/*                         <blockquote style="font-size: 25px;font-family: Agency FB;">*/
 /*                             Recommandations stratégiques & opérationnelles, Brief & coordination des différents pôles d'expertise (Display, SEM, SEO, E-mailing, Affiliation, OPS, Mobile),*/
 /*                             <br/>Suivi & optimisation des campagnes, Reportings,Suivi financier*/
 /*                             <br/>Nissan, Hasbro, Barilla, Sony Pictures / SPHE, Bazarchic*/
@@ -576,10 +601,11 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 /*                         </p>*/
 /*                     </div>*/
 /*                     <br/>*/
+/*                     <span class="line btm"><span></span></span>*/
 /*                     <br/>*/
 /*                     <div class="quote-wrap">*/
-/*                         <h3>Chef de projet Digital </h3>*/
-/*                         <blockquote style="font-size: 25px">*/
+/*                         <h3 style="color: #FFF;font-family: Eraser;font-size: 27px">Chef de projet Marketing </h3>*/
+/*                         <blockquote style="font-size: 25px;font-family: Agency FB;">*/
 /*                             Création des supports de communication, Cahier des charges et gestion de projet pour la refonte des sites web du groupe,*/
 /*                             <br/>Organisation d'évenements à destindation des collaborateurs et des salons professionnels, Développement d'outils de communication interne (Newsletter, Intranet...)*/
 /*                         </blockquote>*/
@@ -604,7 +630,7 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 /*                                     <br/>*/
 /*                                 </div>*/
 /*                                 <div class="credit" style="height: auto">*/
-/*                                     <iframe style="height: 325px;position: relative" src="https://player.vimeo.com/video/10183182?title=0&byline=0&portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>                 */
+/*                                     <iframe style="height: 325px;position: relative" src="https://www.youtube.com/embed/ntB_KuTt52k?rel=0&amp;showinfo=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>                 */
 /*                                 </div>*/
 /*                             </div>*/
 /*                         </div>*/
@@ -619,7 +645,7 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 /*                                     <br/>*/
 /*                                 </div>*/
 /*                                 <div class="credit" style="height: auto">*/
-/*                                     <iframe style="height: 205px;position: relative" width="578" height="325" src="//www.dailymotion.com/embed/video/xafets" frameborder="0" allowfullscreen></iframe>*/
+/*                                     <iframe style="height: 205px;position: relative" width="578" height="325" src="https://www.youtube.com/embed/D1ro89TR8ts?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>*/
 /*                                 </div>*/
 /*                             </div>*/
 /*                         </div>*/
@@ -732,31 +758,31 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 /*                         <br/><br/><br/>*/
 /*                         <div class="text-wrap">*/
 /*                             <p><span style="font-weight: bold">Master II Marketing, Communication & Stratégies Commerciales, majeure E-commerce</span>*/
-/*                                 <br>INSEEC Paris &nbsp; / &nbsp; Septembre 2008 </br>*/
+/*                                 <br>INSEEC Paris &nbsp; - &nbsp; Septembre 2008 </br>*/
 /*                             </p>*/
 /* */
 /*                             <p><span style="font-weight: bold">Master I Management & Gestion d'entreprise, majeure Marketing / Communication </span>*/
-/*                                 <br>Céfire-Esarc &nbsp; / &nbsp; INSEEC Paris &nbsp; / &nbsp; Septembre. 2007 </br>*/
+/*                                 <br>Céfire-Esarc &nbsp; / &nbsp; INSEEC Paris &nbsp; - &nbsp; Septembre. 2007 </br>*/
 /*                             </p>*/
 /* */
 /*                             <p><span style="font-weight: bold">DUT Techniques de Commercialisation, majeure Marketing/Communication</span>  */
-/*                                 <br>IUT de Rouen &nbsp; / &nbsp;Juin 2004 </br>*/
+/*                                 <br>IUT de Rouen &nbsp; - &nbsp;Juin 2004 </br>*/
 /*                             </p>*/
 /*                         </div>*/
 /*                     </div>*/
 /*                 </div>*/
 /*                 <div class="red-bg-color"></div>*/
 /*             </section>*/
-/*             <section id="tools" class="red-wrap">*/
+/*             <section id="tools" class="red-wrap" style="padding-top: 50px; padding-bottom: 50px;">*/
 /*                 <span class="line top"><span></span></span>*/
 /*                 <div class="inner-wrapper">*/
 /*                     <div class="quote-wrap">*/
 /*                         <div class="text-wrap">*/
 /*                             <blockquote>*/
-/*                                 <h6 style="font-family: Eraser;text-align: center;color: #ff3300">OUTILS</h6>*/
+/*                                 <h6 style="font-family: Eraser;text-align: center;color: #FFF">OUTILS</h6>*/
 /*                             </blockquote>*/
 /*                         </div>*/
-/*                         <br/><br/><br/>*/
+/*                         <br/><br/><br/> */
 /*                         <p>Maitrise du pack Office, Photoshop CS, Illustror CS</p>*/
 /*                         <p>Connaissance HTML4.1 & PHP5 </p>*/
 /*                         <p>Outils de PUBLICATION ; CMS Wordpress, Hootsuite, Buffer</p>*/
@@ -779,7 +805,11 @@ class __TwigTemplate_43d14cb35c673483cc40fc3e0023091f0e39bf0eaf407487c253fb9d174
 /*                 </div>*/
 /*                 <div class="image-wrap right-align">*/
 /*                     <div class="caption">*/
-/*                         <h3>Janay, who doesn’t have a Twitter account, posted the following message on Instagram:</h3>*/
+/*                         <h3 style="font-family: Agency FB;color: #FFF"> Mail : <a href="mailto:rebecca.petit@gmail.com" style="font-family: bebas_neuebold,Helvetica,sans-serif;">rebecca.petit@gmail.com</a>*/
+/*                             <br> Dial : <a href="tel:+33781419834" style="font-family: bebas_neuebold,Helvetica,sans-serif;">07 81 41 98 34</a>*/
+/*                             <br> LinkedIn <a href="https://fr.linkedin.com/in/rebeccapetit" target="_blank" style="font-family: bebas_neuebold,Helvetica,sans-serif;">@rebecca.petit</a>*/
+/*                             <br> Twitter <a href="https://twitter.com/rebkTM" target="_blank" style="font-family: bebas_neuebold,Helvetica,sans-serif;">@RebkTMt</a>*/
+/*                         </h3>*/
 /*                     </div>*/
 /*                 </div>*/
 /*             </section>*/

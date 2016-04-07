@@ -3746,7 +3746,7 @@ body[data-page="whyistayed"] #page .fboldup {
     }
 }
 body[data-page="whyistayed"] #page h1 {
-    color: #d33939;
+    color: #ff3300;
     font-family: Eraser;
     font-size: 69px;
     font-weight: lighter;
@@ -3958,7 +3958,7 @@ body[data-page="whyistayed"] #page .line {
     }
 }
 body[data-page="whyistayed"] #page .line span {
-    background-color: #d33939;
+    background-color: #ff3300;
     display: block;
     height: 0;
     position: relative;
@@ -4102,7 +4102,7 @@ body[data-page="whyistayed"] #page .red-wrap .icon-twitter {
     color: #fff;
 }
 body[data-page="whyistayed"] #page .red-wrap .red-bg-color {
-    background-color: #d33939;
+    background-color: #ff3300;
     height: 0;
     left: 0;
     position: absolute;

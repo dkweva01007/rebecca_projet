@@ -18,8 +18,8 @@ class __TwigTemplate_d1901b749ad0947212b962ebf3c1eeccc27077d5068bbf9ccd2200b5f87
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e9d17126e6e9b6e2fa787c9c07a3a98b7ed714ed6642c724cf12100cc24bb7bb = $this->env->getExtension("native_profiler");
-        $__internal_e9d17126e6e9b6e2fa787c9c07a3a98b7ed714ed6642c724cf12100cc24bb7bb->enter($__internal_e9d17126e6e9b6e2fa787c9c07a3a98b7ed714ed6642c724cf12100cc24bb7bb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::base.html.twig"));
+        $__internal_fcf97c12382b8325cf6777a59e3d0a014f543bddf2978041411b0d9fa569cd16 = $this->env->getExtension("native_profiler");
+        $__internal_fcf97c12382b8325cf6777a59e3d0a014f543bddf2978041411b0d9fa569cd16->enter($__internal_fcf97c12382b8325cf6777a59e3d0a014f543bddf2978041411b0d9fa569cd16_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::base.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -65,7 +65,7 @@ class __TwigTemplate_d1901b749ad0947212b962ebf3c1eeccc27077d5068bbf9ccd2200b5f87
                 <div class=\"hamburger\">
                     <span class=\"top\"></span><span class=\"mid\"></span><span class=\"btm\"></span>
                 </div>
-                <div class=\"bth-text\">
+                <div class=\"bth-text\" style=\"font-family: Eraser\">
                     <a href=\"/\" >Rebecca PETIT</a>
                 </div>
                 <div class=\"social\">
@@ -150,40 +150,40 @@ class __TwigTemplate_d1901b749ad0947212b962ebf3c1eeccc27077d5068bbf9ccd2200b5f87
 </html>
 ";
         
-        $__internal_e9d17126e6e9b6e2fa787c9c07a3a98b7ed714ed6642c724cf12100cc24bb7bb->leave($__internal_e9d17126e6e9b6e2fa787c9c07a3a98b7ed714ed6642c724cf12100cc24bb7bb_prof);
+        $__internal_fcf97c12382b8325cf6777a59e3d0a014f543bddf2978041411b0d9fa569cd16->leave($__internal_fcf97c12382b8325cf6777a59e3d0a014f543bddf2978041411b0d9fa569cd16_prof);
 
     }
 
     // line 20
     public function block_title($context, array $blocks = array())
     {
-        $__internal_410c7af7e9d355ad82310add9664d3db6acd98f398170b2a6479236a80e6d6af = $this->env->getExtension("native_profiler");
-        $__internal_410c7af7e9d355ad82310add9664d3db6acd98f398170b2a6479236a80e6d6af->enter($__internal_410c7af7e9d355ad82310add9664d3db6acd98f398170b2a6479236a80e6d6af_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_4ad4cd563200652c748b4698247f30ed79a16e511c091ee41414c2a1853d0464 = $this->env->getExtension("native_profiler");
+        $__internal_4ad4cd563200652c748b4698247f30ed79a16e511c091ee41414c2a1853d0464->enter($__internal_4ad4cd563200652c748b4698247f30ed79a16e511c091ee41414c2a1853d0464_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         
-        $__internal_410c7af7e9d355ad82310add9664d3db6acd98f398170b2a6479236a80e6d6af->leave($__internal_410c7af7e9d355ad82310add9664d3db6acd98f398170b2a6479236a80e6d6af_prof);
+        $__internal_4ad4cd563200652c748b4698247f30ed79a16e511c091ee41414c2a1853d0464->leave($__internal_4ad4cd563200652c748b4698247f30ed79a16e511c091ee41414c2a1853d0464_prof);
 
     }
 
     // line 103
     public function block_body($context, array $blocks = array())
     {
-        $__internal_54f64693b2688d1b5e8425584e39d5f9473da6ac2bb20fd341767a4fdf59a3f3 = $this->env->getExtension("native_profiler");
-        $__internal_54f64693b2688d1b5e8425584e39d5f9473da6ac2bb20fd341767a4fdf59a3f3->enter($__internal_54f64693b2688d1b5e8425584e39d5f9473da6ac2bb20fd341767a4fdf59a3f3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_8a30c61e115ece81c3da53e88cc180a9923a4f4a196deb4e263a0e1723af24b6 = $this->env->getExtension("native_profiler");
+        $__internal_8a30c61e115ece81c3da53e88cc180a9923a4f4a196deb4e263a0e1723af24b6->enter($__internal_8a30c61e115ece81c3da53e88cc180a9923a4f4a196deb4e263a0e1723af24b6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         
-        $__internal_54f64693b2688d1b5e8425584e39d5f9473da6ac2bb20fd341767a4fdf59a3f3->leave($__internal_54f64693b2688d1b5e8425584e39d5f9473da6ac2bb20fd341767a4fdf59a3f3_prof);
+        $__internal_8a30c61e115ece81c3da53e88cc180a9923a4f4a196deb4e263a0e1723af24b6->leave($__internal_8a30c61e115ece81c3da53e88cc180a9923a4f4a196deb4e263a0e1723af24b6_prof);
 
     }
 
     // line 105
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_11ada6295229caa1f9df983e5c54cbb2ca6f4b8da3691186d2ae0404d8cfc9b8 = $this->env->getExtension("native_profiler");
-        $__internal_11ada6295229caa1f9df983e5c54cbb2ca6f4b8da3691186d2ae0404d8cfc9b8->enter($__internal_11ada6295229caa1f9df983e5c54cbb2ca6f4b8da3691186d2ae0404d8cfc9b8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_d112cc85f95b0164a641de338e155a8b24cbc2d01b59f8796aaaa94a41f24a5a = $this->env->getExtension("native_profiler");
+        $__internal_d112cc85f95b0164a641de338e155a8b24cbc2d01b59f8796aaaa94a41f24a5a->enter($__internal_d112cc85f95b0164a641de338e155a8b24cbc2d01b59f8796aaaa94a41f24a5a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
         
-        $__internal_11ada6295229caa1f9df983e5c54cbb2ca6f4b8da3691186d2ae0404d8cfc9b8->leave($__internal_11ada6295229caa1f9df983e5c54cbb2ca6f4b8da3691186d2ae0404d8cfc9b8_prof);
+        $__internal_d112cc85f95b0164a641de338e155a8b24cbc2d01b59f8796aaaa94a41f24a5a->leave($__internal_d112cc85f95b0164a641de338e155a8b24cbc2d01b59f8796aaaa94a41f24a5a_prof);
 
     }
 
@@ -238,7 +238,7 @@ class __TwigTemplate_d1901b749ad0947212b962ebf3c1eeccc27077d5068bbf9ccd2200b5f87
 /*                 <div class="hamburger">*/
 /*                     <span class="top"></span><span class="mid"></span><span class="btm"></span>*/
 /*                 </div>*/
-/*                 <div class="bth-text">*/
+/*                 <div class="bth-text" style="font-family: Eraser">*/
 /*                     <a href="/" >Rebecca PETIT</a>*/
 /*                 </div>*/
 /*                 <div class="social">*/
